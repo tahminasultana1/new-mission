@@ -160,7 +160,6 @@ main section {
     position: relative;
     background-image: url("../images/watch.png");
     background-repeat: no-repeat;
-    height: 500px;
     background-size: 100%;
 }
 
@@ -243,9 +242,11 @@ footer {
     margin-bottom: 20px;
 }
 .footer-form{
-    background-color: black;
+    background-color: transparent;
     color: #F3F3F3;
-    padding-top: 13px;
-    padding-left: 20px;
     margin-bottom: 10px;
+    padding: 10px;
+    border-color: #F3F3F3;
+    border-radius: 5px;
+    outline: none;
 }

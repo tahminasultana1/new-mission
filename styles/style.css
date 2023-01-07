@@ -78,9 +78,7 @@ nav li {
 
 /*Section  */
 main section {
-    margin: 230px 130px;
-    border: 2px;
-    border-color: black;
+    margin: 130px 130px;
 }
 
 .first-section {
@@ -102,27 +100,91 @@ main section {
     line-height: 47px;
     margin-bottom: 24px;
 }
-.first-section-div p{
+
+.first-section-div p {
     line-height: 26px;
     margin-bottom: 16px;
 }
-.first-section-div ul{
+
+.first-section-div ul {
     list-style: none;
     margin-left: -38px;
     line-height: 25px;
 }
-.first-section-div ul li img{
+
+.first-section-div ul li img {
     width: 4%;
 }
 
-/*My plans */
-.My plans-section{
-    margin: 100px 40px;
-    border-radius: 10px;
-    padding: 131px 156px;
-} 
-.skill-container{
+/*My plans Section*/
+.my-plan-section {
+    text-align: center;
+}
+
+.my-plan-title {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 30px;
+}
+
+.aim-container {
     display: flex;
     justify-content: space-around;
-    align-items: t;
+}
+
+.aim-box {
+    width: 80%;
+}
+
+.aim-box img {
+    width: 30%;
+}
+
+.aim-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.aim-desc {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+/* Mindset Section */
+.mindset-div {
+    width: auto;
+    position: relative;
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: 100%;
+}
+
+.mindset-div img {
+    width: 100%;
+}
+
+.over-image {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+.over-image h2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 47px;
+    color: white;
+}
+.btn-invert{
+    color: #F15B22;
+    background-color: #FFFFFF;
+    border: 0;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 3px;
 }

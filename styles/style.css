@@ -173,13 +173,15 @@ main section {
     top: 45px;
     left: 50px;
 }
-.over-image h2{
+
+.over-image h2 {
     font-weight: 700;
     font-size: 20px;
     line-height: 47px;
     color: white;
 }
-.btn-invert{
+
+.btn-invert {
     color: #F15B22;
     background-color: #FFFFFF;
     border: 0;
@@ -187,4 +189,63 @@ main section {
     font-weight: 700;
     font-size: 16px;
     border-radius: 3px;
+}
+
+/* Footer Section */
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-section {
+    display: flex;
+    margin: 0 130px;
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+
+.footer-section h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.footer-desc {
+    line-height: 26px;
+}
+
+.footer-div-left {
+    width: 50%;
+}
+
+.footer-div-middle {
+    width: 20%;
+}
+
+.footer-div-right {
+    width: 30%;
+}
+
+.contact {
+    line-height: 40px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.footer-div-right h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+.footer-form{
+    background-color: black;
+    color: #F3F3F3;
+    padding-top: 13px;
+    padding-left: 20px;
+    margin-bottom: 10px;
 }
